@@ -21,6 +21,14 @@ export default {
                 center: true,
             },
         },
+        screens: {
+            '2xl': '1400px',
+            xl: '1200px',
+            lg: '992px',
+            md: '768px',
+            sm: '576px',
+            xs: '320px',
+        }
     },
 
     plugins: [forms, flyonui, plugin],
